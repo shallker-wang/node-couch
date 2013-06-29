@@ -8,7 +8,7 @@ CouchDB API in Nodejs.
 npm install git://github.com/shallker-wang/node-couch.git
 ```
 
-### Quck Start
+## Quck Start
 Require and create an instance with your CouchDB URL:
 ```javascript
 var Couch = require('node-couch');
@@ -24,7 +24,7 @@ couch.addDocument(data, function(result, response) {
 });
 ```
 
-### APIs
+## APIs
 Add a document:
 ```javascript
 couch.addDocument(doc, function(result, response) {});
@@ -50,5 +50,5 @@ Delete a document:
 couch.deleteDocument(id, rev, function(result, response) {});
 ```
 
-### Todo
+## Todo
 * write a test
