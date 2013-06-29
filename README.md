@@ -8,7 +8,7 @@ CouchDB API in Nodejs.
 npm install git://github.com/shallker-wang/node-couch.git
 ```
 
-## Quck Start
+## Quick Start
 Require and create an instance with your CouchDB URL:
 ```javascript
 var Couch = require('node-couch');
