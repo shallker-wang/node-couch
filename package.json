@@ -8,5 +8,8 @@
     "type": "git",
     "url": "https://github.com/shallker-wang/node-couch.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bupper": "git://github.com/shallker-wang/bupper.git",
+    "my-http": "git://github.com/shallker-wang/my-http.git"
+  }
 }
